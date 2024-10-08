@@ -1,9 +1,6 @@
 let inputs = document.getElementById('input-box');
 let text = document.querySelector('.text');
-// let newelement;
-// let icon = `<i class="fa-solid fa-xmark"></i>`;
 let iselector;
-
 
 function Add(){
     if(inputs.value == ''){
@@ -24,13 +21,4 @@ function Add(){
     }
 } 
 
-           
-
-// function savedata(){
-//     localStorage.setItem('data',text.innerHTML)
-// }
-
-// function showtask(){
-//     text.innerHTML = localStorage.getItem('data');
-// }
 
